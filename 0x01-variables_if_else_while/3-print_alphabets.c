@@ -14,7 +14,6 @@ int main(void)
 	{
 		int low = toupper(i);
 		putchar(i);
-		putchar(low);
 	}
 	putchar('\n');
 	return (0);
