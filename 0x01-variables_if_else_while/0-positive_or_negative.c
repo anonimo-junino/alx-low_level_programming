@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - completing the source code in order to where
  * the number is positive, negative or zero
  *
