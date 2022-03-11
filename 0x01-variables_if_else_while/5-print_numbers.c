@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - print alphabet in lowercase
+ * main - print digit in base 10
  *
  * Return: always 0 (Success)
  */
@@ -10,9 +10,9 @@ int main(void)
 {
 	int i;
 
-	for (i = 10 ; i >=0 ; i--)
+	for (i = 10 ; i >= 0 ; i--)
 	{
-		printf("%d \n", i);
+		printf("%d", i);
 	}
 	return (0);
 }
