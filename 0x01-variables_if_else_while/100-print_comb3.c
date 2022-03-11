@@ -11,9 +11,9 @@ int main(void)
 	int i;
 	int j;
 
-	for (i = 48 ; i <= 57 ; i++)
+	for (i = '48' ; i <= '57' ; i++)
 	{
-		for (i = 49; j <= 57; j++)
+		for ( = '49' ; j <= '57'; j++)
 		{
 			if (i != j)
 			{
