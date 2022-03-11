@@ -12,7 +12,6 @@ int main(void)
 
 	for (i = 'a'; i <= 'z' ; i++)
 	{
-		int low = toupper(i);
 		putchar(i);
 	}
 	putchar('\n');
