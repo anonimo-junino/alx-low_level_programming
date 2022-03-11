@@ -12,8 +12,9 @@ int main(void)
 
 	for (i = 'a'; i <= 'z' ; i++)
 	{
+		int low = toupper(i);
 		putchar(i);
-		putchar(toupper(i));
+		putchar(low);
 	}
 	putchar('\n');
 	return (0);
