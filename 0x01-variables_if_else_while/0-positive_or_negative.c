@@ -3,11 +3,10 @@
 #include <stdio.h>
 
 /*
- * main - completing the source code in order to print where
+ * main - completing the source code in order to where
  * the number is positive, negative or zero
- * Return: 0
  *
- * Description : main complete
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
