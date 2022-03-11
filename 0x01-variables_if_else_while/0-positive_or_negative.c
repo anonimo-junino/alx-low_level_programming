@@ -6,6 +6,8 @@
  * main - completing the source code in order to print where
  * the number is positive, negative or zero
  * Return: 0
+ *
+ * Description : main complete
  */
 int main(void)
 {
