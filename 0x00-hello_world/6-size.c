@@ -3,7 +3,6 @@
  *
  * main - Entry point
  *
- * print sizeof char, int, long int, long long int,
  * Return: Always 0 (Success)
  */
 int main(void)
