@@ -1,13 +1,13 @@
+#include <string.h>
 #include <stdio.h>
 /**
- * main - this program print 'and that piece of art is usefu
- * l" - Dora Korpar, 2015-10-19'
+ * main - this program print a text
  *
  * Return (1) - Success
  */
-
 int main(void)
 {
-	putchar("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+	putchar("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
+	putcha('\n');
 	return (1);
 }
