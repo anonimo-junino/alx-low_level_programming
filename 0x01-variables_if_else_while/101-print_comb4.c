@@ -26,8 +26,11 @@ int main(void)
 
 					if (i != 56 || j != 57 || k != 58)
 					{
-						putchar(',');
-						putchar(' ');
+						if ((i != 7) && (j != 8) && (k != 9))
+						{
+							putchar(',');
+							putchar(' ');
+						}
 					}
 				}
 			}
