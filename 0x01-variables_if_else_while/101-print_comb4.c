@@ -16,9 +16,9 @@ int main(void)
 	{
 		for (j = 49 ; j <= 57 ; j++)
 		{
-			for (k = 50; k <=58; k++)
+			for (k = 50 ; k <= 58 ; k++)
 			{
-				if ((k > j) && (j > i))
+				if (((k > j) && (j > i)) && (k != ':'))
 				{
 					putchar(i);
 					putchar(j);
