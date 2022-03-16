@@ -10,7 +10,7 @@
 int _islower(int c)
 {
 	int retourne;
-	
+
 	if ((c >= 97) && (c <= 122))
 		retourne = 1;
 	else
