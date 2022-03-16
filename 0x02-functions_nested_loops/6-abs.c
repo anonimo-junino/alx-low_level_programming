@@ -16,7 +16,7 @@ int _abs(int n)
 	else if (n == 0)
 		rval = 0;
 	else
-		rval = (-1) *(n);
+		rval = (-1) * (n);
 
 	return (rval);
 }
