@@ -8,7 +8,7 @@
  */
 int print_last_digit(int n)
 {
-	int num;
+	int num = 0;
 	int rval;
 
 	num = 0;
