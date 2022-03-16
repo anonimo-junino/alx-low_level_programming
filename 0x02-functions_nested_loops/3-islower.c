@@ -15,6 +15,6 @@ int _islower(int c)
 		retourne = 1;
 	else
 		retourne = 0;
-	
+
 	return (retourne);
 }
