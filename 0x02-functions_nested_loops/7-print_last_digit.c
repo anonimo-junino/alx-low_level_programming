@@ -8,9 +8,21 @@
  */
 int print_last_digit(int n)
 {
-	int rval ;
+	int num, rval;
 
-	rval = n % 10;
+	num = n;
+	if (n > 0)
+	{
+		num = n;
+		rval = n % 10;
+	}
+	else if (n == 0)
+		rval = 0;
+	else
+	{
+		num = (-1) * n;
+		rval = n % 10;
+	}
 
 	return (rval);
 }
