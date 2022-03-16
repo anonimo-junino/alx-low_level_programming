@@ -11,9 +11,9 @@ int main(void)
 
 	int i;
 
-	for (c = 0; c < 8; i++)
+	for (i = 0; i < 8; i++)
 	{
-		_putchar(str[c]);
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 	return (0);
