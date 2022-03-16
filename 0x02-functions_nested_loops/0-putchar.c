@@ -1,15 +1,20 @@
-#include <stdio.h>
-#include <unistd.h>
+#include "main.h"
 
 /**
- * main - Prints _putchar follewed by a new line
- *
- * Description: Prints _putchar followed by a new line
- *
- * Return: (0) Success
+ * main - entry block
+ * @void: no argument
+ * Return: 0
  */
 int main(void)
 {
-	write(1, "_putchar\n", 9);
+	char str[] = "_putchar";
+
+	int i;
+
+	for (c = 0; c < 8; i++)
+	{
+		_putchar(str[c]);
+	}
+	_putchar('\n');
 	return (0);
 }
