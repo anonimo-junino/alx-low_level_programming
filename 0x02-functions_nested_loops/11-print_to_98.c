@@ -16,21 +16,21 @@ void print_to_98(int n)
 
 	if (n > 98)
 	{
-		beg = 98;
-		end = n;
+		for (i = n; i <= 98; i++)
+		{
+			printf("%d", i);
+			if (i < 98)
+				printf(", ");
+		}
 	}
-	else
+	else 
 	{
-		beg = n;
-		end = 98;
-	}
+		for (i = n; i <= 98; i--)
+		{
+			printf("%d", i);
+			if (i < 98)
+				printf(", ");
 
-
-	for (i = beg; i <= end; i++)
-	{
-		printf("%d", i);
-		if (i < end)
-			printf(", ");
 	}
 	printf("\n");
 }
