@@ -8,12 +8,12 @@
  */
 int _isalpha(int c)
 {
-	int returnValue;
+	int retvalue;
 
 	if (((c >= 65) && (c <= 90)) || ((c >= 97) && (c <= 122)))
-		returnValue = 1;
+		retvalue = 1;
 	else
-		returnValue = 0;
+		retvalue = 0;
 
-	return (returnValue);
+	return (retvalue);
 }
