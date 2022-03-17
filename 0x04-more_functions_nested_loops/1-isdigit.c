@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <string.h>
-
 /**
  * _isdigit - checks digit
  * @c: value to be checked
