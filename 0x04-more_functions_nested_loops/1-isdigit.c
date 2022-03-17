@@ -11,12 +11,20 @@
 int _isdigit(int c)
 {
 	int rval;
-	/*int i;*/
+	int i;
 
 	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 		rval = 0;
 	else if (c >= 48 && c <= 57)
-		rval = 1;
+	{
+		for (i = 0; i <= 9; i++)
+		{
+			if (i == c)
+				rval = 1;
+			else
+				rval = 0;
+		}
+	}
 	else
 		rval = 0;
 	
