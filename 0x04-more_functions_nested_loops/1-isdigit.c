@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 /**
  * _isdigit - checks digit
@@ -10,38 +11,24 @@
 int _isdigit(int c)
 {
 	int rval;
+	/*int i;*/
 
-	if (c == 0)
-		rval = 1;
-	else if (c == 1)
-		rval = 1;
-	else if (c == 2)
-		rval = 1;
-	else if (c == 3)
-		rval = 1;
-	else if (c == 4)
-		rval = 1;
-	else if (c == 5)
-		rval = 1;
-	else if (c == 6)
-		rval = 1;
-	else if (c == 7)
-		rval = 1;
-	else if (c == 8)
-		rval = 1;
-	else if (c == 9)
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
+		rval = 0;
+	else if (c >= 48 && c <= 57)
 		rval = 1;
 	else
 		rval = 0;
-
+	
 	/*
-	 * for (i = 0; i <= 9; i++)
-	*  {
+	*for (i = 0; i <= 9; i++)
+	*{
 	*	if (i == c)
 	*		rval = 1;
 	*	else
 	*		rval = 0;
 	*}
 	*/
+
 	return (rval);
 }

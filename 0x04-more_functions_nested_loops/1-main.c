@@ -19,6 +19,8 @@ int main(void)
 	printf("------------------------\n");
 	x = '0' == 0;
 	printf(" '0' = 0 : %d\n", x);
-
+	x = 10 == 0;
+	printf(" 10 = 0 : %d\n", x);
+	
 	return (0);
 }
