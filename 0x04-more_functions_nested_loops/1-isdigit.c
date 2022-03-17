@@ -10,13 +10,8 @@ int _isdigit(int c)
 	int rval;
 	int i;
 
-	for (i = 0; i <= 9; i++)
-	{
-		if (i == c)
-			rval = 1;
-		else
-			rval = 0;
-	}
-
-	return (rval);
+	if (c >= 48 && c <= 57)
+		return (1);
+	else
+		return (0);
 }
