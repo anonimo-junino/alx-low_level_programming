@@ -22,7 +22,7 @@ void print_diagonal(int n)
 					_putchar(' ');
 			}
 			_putchar('\\');
-			_pucthar('\n');
+			_putchar('\n');
 		}
 	}
 }
