@@ -17,7 +17,7 @@ void print_rev(char *s)
 			nbrchar++;
 		} while (s[nbrchar] != '\0');
 
-		for (i = nbrchar; i > 0; i--)
+		for (i = nbrchar - 1; i >= 0; i--)
 			_putchar(s[i]);
 	}
 	_putchar('\n');
