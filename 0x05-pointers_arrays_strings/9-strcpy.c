@@ -14,10 +14,11 @@ char *_strcpy(char *dest, char *src)
 {
 	int i, lgth = 0;
 
-	do {
-		lgth++;
-	} while (src[lgth] != '\0');
+	for (lgth = 0; src[lgth] != '\0'; lgth++)
+	{
 
+	}
+	
 	for (i = 0; i <= lgth; i++)
 		dest[i] = src[i];
 
