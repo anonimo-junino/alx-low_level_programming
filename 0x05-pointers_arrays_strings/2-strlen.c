@@ -12,7 +12,8 @@
 int _strlen(char *s)
 {
 	int nbrChar = 0;
-
+	
+	printf("&s %p", &s);
 	if (s != NULL)
 	{
 		do {
