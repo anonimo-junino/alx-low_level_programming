@@ -18,9 +18,10 @@ char *_strcpy(char *dest, char *src)
 		lgth++;
 	} while (src[lgth] != '\0');
 
-	for (i = 0; i <= lgth; i++)
+	if (src != NULL)
 	{
-		dest[i] = src[i];
+		for (i = 0; i <= lgth; i++)
+			dest[i] = src[i];
 	}
 
 	return (dest);
