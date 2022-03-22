@@ -12,7 +12,7 @@
 int _strlen(char *s)
 {
 	int nbrChar = 0;
-	
+
 	if (*s != 0)
 	{
 		do {
