@@ -12,7 +12,7 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	int i, lgth;
+	int i, lgth = 0;
 
 	do {
 		lgth++;
