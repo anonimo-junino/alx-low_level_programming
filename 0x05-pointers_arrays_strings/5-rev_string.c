@@ -11,7 +11,7 @@
 void rev_string(char *s)
 {
 	int nbrchar = 0;
-	int i = 0, j =0;
+	int i = 0, j = 0;
 	char v1, v2;
 
 	if (*s != 0)
@@ -21,7 +21,7 @@ void rev_string(char *s)
 		} while (s[nbrchar] != '\0');
 
 		j = nbrchar - 1;
-		
+
 		while (j > i)
 		{
 			v1 = s[i];
