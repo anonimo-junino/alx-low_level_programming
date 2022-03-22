@@ -24,12 +24,7 @@ char *_strcpy(char *dest, char *src)
 			dest[i] = src[i];
 	}
 	else
-	{
-		dest[0] = "'";
-		dest[1] = "\\";
-		dest[2] = "0";
-		dest[3] = "'";
-	}
+		dest = { };
 
 	return (dest);
 }
