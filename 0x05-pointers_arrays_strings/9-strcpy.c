@@ -23,6 +23,13 @@ char *_strcpy(char *dest, char *src)
 		for (i = 0; i <= lgth; i++)
 			dest[i] = src[i];
 	}
+	else
+	{
+		dest[0] = "'";
+		dest[1] = "\\";
+		dest[2] = "0";
+		dest[3] = "'";
+	}
 
 	return (dest);
 }
