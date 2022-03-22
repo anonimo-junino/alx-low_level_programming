@@ -12,6 +12,7 @@ int main(void)
 	int len;
 
 	str = "My frist strlen!";
+	str = "";
 	len = _strlen(str);
 	printf("%d\n", len);
 	return (0);

@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdio.h>
 
 /**
  * _strlen - the length of a string
@@ -11,7 +12,10 @@
 int _strlen(char *s)
 {
 	int nbrChar = 0;
-	if (s != "")
+
+	printf("*s %d", *s);
+	
+	if (s != NULL)
 	{
 		do {
 			nbrChar++;
