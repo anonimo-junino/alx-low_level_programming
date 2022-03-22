@@ -18,13 +18,8 @@ char *_strcpy(char *dest, char *src)
 		lgth++;
 	} while (src[lgth] != '\0');
 
-	if (src != NULL)
-	{
-		for (i = 0; i <= lgth; i++)
-			dest[i] = src[i];
-	}
-	else
-		dest = { };
+	for (i = 0; i <= lgth; i++)
+		dest[i] = src[i];
 
 	return (dest);
 }
