@@ -13,8 +13,6 @@ int _strlen(char *s)
 {
 	int nbrChar = 0;
 
-	printf("*s %d", *s);
-	
 	if (s != NULL)
 	{
 		do {
