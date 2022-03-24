@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * *_strcat - Strings contact
+ * *_strncat - Strings contact
  * @dest: frist string
  * @src: second string
  * @n: bytes from src to be used
@@ -13,27 +13,18 @@
 char *_strncat(char *dest, char *src, int n)
 {
 	int tdest = 0;
-	int tsrc;
-	int i = 0, j = 0;
+	int counter = 0;
 
 	for (tdest = 0; dest[tdest] != '\0'; tdest++)
 	{
 
 	}
 
-	for (tsrc = 0; src[tsrc] != '\0'; tsrc++)
+	while (src[counter] && (j < n))
 	{
-
-	}
-
-	for (i = 0; src[j] != 0; i++)
-	{
-		if ( j < n)
-		{
-			dest[tdest] = src[j];
-			tdest++;
-			j++;
-		}
+		dest[tdest] = src[counter];
+		tdest++;
+		counter++;
 	}
 
 	dest[tdest + n + 1] = '\0';
