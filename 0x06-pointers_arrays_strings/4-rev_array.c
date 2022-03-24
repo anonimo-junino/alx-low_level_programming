@@ -3,7 +3,7 @@
 
 /**
  * reverse_array - reverse array
- * @a: array
+ * @a: integers array
  * @n: number of elements of the array
  *
  * Description: Function that reverses the content of an array of integers
@@ -16,7 +16,7 @@ void reverse_array(int *a, int n)
 	for (i = 0; i < (n - 1); i++)
 		p++;
 
-	for (j = 0; j < (j / 2); j++)
+	for (j = 0; j < (i / 2); j++)
 	{
 		arr = a[j];
 		a[j] = *p;
