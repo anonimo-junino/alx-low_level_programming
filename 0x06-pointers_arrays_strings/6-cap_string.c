@@ -21,7 +21,7 @@ char *cap_string(char *str)
 
 		while (i < cptlz)
 		{
-			if ((ct == 0 || str[ct - 1] == spr[i]) &&(str[ct] >= 97 && str[ct] <= 122))
+			if ((ct == 0 || str[ct - 1] == spr[i]) && (str[ct] >= 97 && str[ct] <= 122))
 				str[ct] -= 32;
 
 			i++;
