@@ -14,7 +14,7 @@ void print_diagsums(int *a, int size)
 {
 	int i, sone = 0, stwo = 0;
 
-	for (i = 0, b < size; i++)
+	for (i = 0; i < size; i++)
 	{
 		sone += a[(size + 1) * i];
 		stwo += a[(size - 1) * (i + 1)];
