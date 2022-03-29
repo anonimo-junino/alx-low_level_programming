@@ -1,1 +1,1 @@
-This is README.md for 0x06-pointers_arrays_strings
+This is README.md for 0x07-pointers_arrays_strings
